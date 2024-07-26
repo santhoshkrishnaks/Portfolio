@@ -8,15 +8,14 @@ body {
   height: 50%;
   width: 0;
   position: fixed;
-  z-index: 1;
-  top: 11%;
+  z-index: 100;
+  top:5%;
   right: 0;
-  background-color: #111;
+  background-color:black;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
 }
-
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -25,11 +24,9 @@ body {
   display: block;
   transition: 0.3s;
 }
-
 .sidenav a:hover {
   color:#70e1f5;
 }
-
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -114,6 +111,7 @@ body{
     color: white;
     font-family: "Caveat", cursive;
     cursor: pointer;
+    z-index: 101;
 }
 .menu-bar{
     color:#fff;
