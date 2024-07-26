@@ -9,7 +9,7 @@ body {
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 12%;
+  top: 11%;
   right: 0;
   background-color: #111;
   overflow-x: hidden;
@@ -27,7 +27,7 @@ body {
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color:#70e1f5;
 }
 
 .sidenav .closebtn {
