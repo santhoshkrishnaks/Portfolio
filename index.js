@@ -1,4 +1,10 @@
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
 
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
     ScrollReveal({
             reset: false,
             distance: "180px",
@@ -14,3 +20,4 @@
         ScrollReveal().reveal(".project-container",{origin:"left"});
         ScrollReveal().reveal(".section .Skills",{origin:"right"});
         ScrollReveal().reveal(".contact .container",{origin:"left"});
+       

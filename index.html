@@ -12,21 +12,30 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       class="stylesheet"
       />
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home">Home</a>
+        <a href="#edu">Education</a>
+        <a href="#proj">Projects</a>
+        <a href="#skill">Skill</a>
+        <a href="#contact">Contact</a>
+    </div>
     <div id="home"></div>
     <header class="header-area">
       <div class="Container">
         <div class="header">
           <span class="Name"><a href="">Santhosh Krishna</a></span>
-          <ul class="nav-bar">
+          <ul class="nav-bar" id="nav">
             <li><a href="#home">Home</a></li>
             <li><a href="#edu">Education</a></li>
             <li><a href="#proj">Projects</a></li>
             <li><a href="#skill">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <div class="menu-bar">
+          <div class="menu-bar" onclick="openNav()">
             <i class="fa fa-bars"></i>
           </div>
         </div>
