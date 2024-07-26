@@ -5,10 +5,12 @@
             duration: 2000,
             delay: 200,
         });
-        ScrollReveal().reveal(".header-area",{delay:340,origin:"top"});
-        ScrollReveal().reveal(".Profile",{delay:640,origin:"left"});
-        ScrollReveal().reveal(".profile-text",{delay:640,origin:"right"});
-        ScrollReveal().reveal(".col-twelve",{delay:640,origin:"right"});
-        ScrollReveal().reveal(".project-container",{delay:640,origin:"left"});
-        ScrollReveal().reveal(".section .Skills",{delay:640,origin:"right"});
-        ScrollReveal().reveal(".contact .container",{delay:640,origin:"left"});
+        ScrollReveal().reveal(".header-area",{origin:"top"});
+        ScrollReveal().reveal(".edu-timeline",{origin:"top"});
+        ScrollReveal().reveal(".title",{origin:"top"});
+        ScrollReveal().reveal(".Profile",{origin:"left"});
+        ScrollReveal().reveal(".profile-text",{origin:"right"});
+        ScrollReveal().reveal(".col-twelve",{origin:"right"});
+        ScrollReveal().reveal(".project-container",{origin:"left"});
+        ScrollReveal().reveal(".section .Skills",{origin:"right"});
+        ScrollReveal().reveal(".contact .container",{origin:"left"});
